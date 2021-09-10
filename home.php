@@ -31,7 +31,9 @@ get_header(); ?>
 				<i class="fa fa-user"></i> <a href="forfattare.html"><?php the_author(); ?></a>
 			</li>
             <li>
-				<i class="fa fa-tag"></i> <a> <?php echo the_category(); ?></a>
+				<i class="fa fa-tag">
+					<?php echo get_the_category_list(", "); ?>
+				</i> 
 			</li>
 		</ul>
         
