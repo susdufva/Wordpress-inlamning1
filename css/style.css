@@ -1,6 +1,9 @@
 /* General styles
 ------------------------------------------------------------------ */
-
+.category{
+	display: inline;
+	list-style: none;
+}
 * {
 	outline: none;
 }

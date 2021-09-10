@@ -20,6 +20,11 @@ function my_pictures(){
 
 add_action('after_setup_theme', 'my_pictures');
 
+function content_length($length) {
+    return 80;
+    }
+    add_filter('excerpt_length', 'content_length');
+
 function register_my_menus(){
     register_nav_menus(
         array(
