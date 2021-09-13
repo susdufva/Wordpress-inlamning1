@@ -35,4 +35,5 @@ function register_my_menus(){
 } 
 add_action ('init', 'register_my_menus'); 
 /*henriks kod after_setup_theme istället för init (sidebar är som menu reister_sidebar (array)) */ 
+
 ?>
