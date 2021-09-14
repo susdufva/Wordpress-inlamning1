@@ -30,7 +30,8 @@ function register_my_menus(){
         array(
             'main-menu' => __('Main Menu', 'text_domain'),
             'mobile-menu' => __('Mobile Menu', 'text_domain'),
-            'undersida-menu' => __('Undersida Menu', 'text_domain')
+            'undersida-menu' => __('Undersida Menu', 'text_domain'),
+            'sidebar-menu' => __('Sidebar Menu', 'text_domain')
         )
         );
 } 
