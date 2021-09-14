@@ -1,4 +1,4 @@
-<?php if(have_posts() ) :
+<?php if(have_posts() ) : /* loop för att hämta inlägg */
         while (have_posts() ) : the_post();
                 
             endwhile;

@@ -14,7 +14,8 @@
 				<h2>Sidor</h2>
 					<ul>
 					    <li class="page_item current_page_item">
-							<?php wp_nav_menu( array ('theme_location' => 'sidebar-menu', 'menu_class' => "page_item") ); ?>
+							<?php wp_nav_menu( array ('theme_location' => 'sidebar-menu', 'menu_class' => "page_item") ); 
+							/*hämtar sidebar meny som är skapad i wp */ ?>
 						</li>
 						
 						<li>
