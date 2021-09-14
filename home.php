@@ -51,7 +51,7 @@ get_header(); ?>
 	</nav>
 </div>
     <aside id="secondary" class="col-xs-12 col-md-3">
-	<?php get_template_part('sidebar') ?>
+	<?php get_sidebar(); ?>
 </aside>
  
     <?php wp_reset_postdata(); ?>
